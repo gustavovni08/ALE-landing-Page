@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+header{
+
+    justify-content: space-evenly;
+}
+
+.container-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    padding: 25px;
+    padding-left: 0px;
+
+
+}
+
+.container-vertical{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    font-size: 20px;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.divisionBar{
+    width: 80%;
+    height: 1vh;
+    border-top: solid #D040F4;
+    border-radius: 2px;
+    position: relative;
+    left: 10%;
+}
+
+#lowBar{
+
+    width: 25%;
+    left: 38%;
+
+}
+
+#menu nav a{
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+}
+
+#menu nav a:hover{
+
+    background-color: #d9d9d9;
+
+}
+
+#home{
+    width: 100%;
+    height: 110%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#home-um{
+    width: 100%;
+    height: 50%;
+
+}
+
+#home-dois{
+
+    position: relative;
+    width: 100%;
+    height: 50%;
+    padding:50px;
+    left: 10%;
+
+}
+
+#texto{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#texto h1{
+    padding: 25px;
+    padding-left: 0px;
+}
+
+#texto p{
+    padding: 25px;
+    max-width: 400px;
+    padding-left: 0px;
+}
+
+
+#imagem img{
+    max-width: 600px;
+    width: 100%;
+}
+
+
+#time{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#time h1{
+    padding-top:50px;
+}
+
+.container-diretor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25vw;
+    height: 75vh;
+}
+
+.container-diretor img{
+
+    max-width: 65%;
+    max-height: 65%;
+  
+
+
+}
+
+.container-diretor .titulo h1{
+
+    font-size: 16px;
+}
+
+
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#diretores{
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+
+}
+
+#tecnologia{
+    border-style: solid;
+}
+
+
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: #351B3E;
+}
+
+#button{
+    background-color: #48E89B;
+    border-radius: 25px;
+}
+
+#button a{
+    text-decoration: none;
+}
+
+@media(max-width:1080px){
+
+
+    .container-vertical{
+        flex-direction: column;
+    }
+
+    #logo{
+        padding-bottom: 25px;
+    }
+
+    #menu{
+        width: 100% ;
+    }
+
+    #menu nav{
+
+        padding-bottom: 25px;
+
+    }
+
+
+    #texto{
+        width: 80%;
+        padding-top: 40px ;
+        padding-bottom: 50px;
+
+    }
+
+    #texto p{
+        padding-right: 50px;
+
+    }
+
+    #texto h1{
+        padding: 25px;
+    }
+    
+    #texto p{
+        max-width: 800px;
+    }
+
+
+    #home-dois div{
+
+        position: relative;
+        width: 100%;
+        right: 5%;
+
+    }
+
+
+    .container-diretor{
+        width: 80vw;
+    }
+}
