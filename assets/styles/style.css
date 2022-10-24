@@ -10,26 +10,33 @@
     font-family: 'Ubuntu', sans-serif;
     
 }
-header{
-
+header, header *{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
 }
 
 .container-texto{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
     width: 25%;
-    height: 100%;
-    padding: 25px;
-    padding-left: 0px;
+}
 
+.container-texto:nth-of-type(2) {
+    padding: 2rem;
+}
 
+.container-texto p {
+    margin-top: 1rem;
+    text-indent: 1.5em;
+    text-align: justify;
 }
 
 .container-vertical{
     display: flex;
-    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
 
@@ -39,6 +46,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.container p {
+    text-align: justify;
 }
 
 a{
@@ -71,8 +83,7 @@ a{
 }
 
 #menu nav a:hover{
-
-    background-color: #d9d9d9;
+    font-weight: bold;
 
 }
 
@@ -187,14 +198,6 @@ a{
 
 }
 
-#arte{
-
-    padding-bottom: 5%;
-
-
-}
-
-
 
 footer{
     width: 100%;
@@ -209,6 +212,11 @@ footer{
 
 #button a{
     text-decoration: none;
+}
+
+#button a:hover{
+    font-weight: bold;
+
 }
 
 @media(max-width:1080px){
